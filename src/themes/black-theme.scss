@@ -1,0 +1,9 @@
+$nep-black-primary: mat-palette($mat-grey, 700, 300, 900);
+$nep-black-accent: mat-palette($mat-blue-grey, 400);
+$nep-black-warn: mat-palette($mat-red, 500);
+
+$nep-black-theme: mat-dark-theme(
+  $nep-black-primary,
+  $nep-black-accent,
+  $nep-black-warn
+);

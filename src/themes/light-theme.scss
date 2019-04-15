@@ -1,0 +1,9 @@
+$nep-light-primary: mat-palette($mat-grey, 200, 500, 300);
+$nep-light-accent: mat-palette($mat-brown, 200);
+$nep-light-warn: mat-palette($mat-deep-orange, 200);
+
+$nep-light-theme: mat-light-theme(
+  $nep-light-primary,
+  $nep-light-accent,
+  $nep-light-warn
+);

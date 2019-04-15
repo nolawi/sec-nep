@@ -1,0 +1,40 @@
+<div class="background">
+  <div class="gradient">
+    <div class="container">
+      <h1>{{ 'nep.title.long' | translate }}</h1>
+      <div class="actions">
+        <a [ngClass]="routeAnimationsElements" mat-raised-button class="actions-main" color="primary"
+          routerLink="../features">
+          {{ 'nep.menu.features' | translate }}
+        </a>
+        <a mat-raised-button class="actions-main" color="accent" routerLink="../examples"
+          [ngClass]="routeAnimationsElements">
+          {{ 'nep.menu.examples' | translate }}
+        </a>
+        <a mat-raised-button class="actions-main" color="warn" routerLink="../settings"
+          [ngClass]="routeAnimationsElements">
+          {{ 'nep.about.change-theme' | translate }}
+        </a>
+        <br>
+        <span [ngClass]="routeAnimationsElements">{{ 'nep.about.check-blogs' | translate }}</span>
+        <br>
+
+      </div>
+      <div class="get-started" [ngClass]="routeAnimationsElements">
+        <h2 data-testid='get-started'>{{ 'nep.about.get-started' | translate }}</h2>
+        <code>git clone
+          https://github.com/nolawi/sec-nep.git
+          new-project</code><br>
+        <code>cd new-project</code><br>
+        <code>npm install</code><br>
+        <code>npm start</code>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+
+</div>
+<div class="container" rtl>
+
+</div>
